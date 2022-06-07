@@ -1,7 +1,6 @@
 @charset "UTF-8";
  @import url(//db.onlinewebfonts.com/c/31ed0189fe1ff1e740a652e0f75b77dc?family=Snell+Roundhand);
- @font-face {font-family: "Snell Roundhand"; src: url ("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.eot"); src: url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.eot?#iefix") ("embedded-opentype"), url ("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.woff2") formato ("woff2"), url ("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.woff") formato ("woff"), url("/// formato db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.ttf"), formato url ("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.svg#Snell Roundhand"); }
-
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
