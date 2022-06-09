@@ -118,7 +118,11 @@ body {
     width: 80px;
   }
 }
-
+@media (max-width:750px){
+  .btn-whatsapp{
+    display: none;
+  }
+}
 hr {
   margin: 1rem 0;
   color: inherit;
