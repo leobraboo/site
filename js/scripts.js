@@ -39,9 +39,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-
-async function submitSuccessMessage() {
+document.getElementById("submitButton").addEventListener("click", async (e)=>{
     try {
+        e.preventDefault()
         const conteudo = {
             nome: document.getElementById("name").value,
             email: document.getElementById("email").value,
@@ -50,12 +50,32 @@ async function submitSuccessMessage() {
         }
 
         const { data } = await axios.post(`http://localhost:3003/enviarEmail`, conteudo)
-        console.log(data)
+        return console.log(data.message)
 
     } catch (error) {
         console.log(error)
 
     }
 
+})
 
-}
+// async function submitSuccessMessage(e) {
+//     try {
+//         e.preventDefault()
+//         const conteudo = {
+//             nome: document.getElementById("name").value,
+//             email: document.getElementById("email").value,
+//             tel: document.getElementById("phone").value,
+//             message: document.getElementById("message").value,
+//         }
+
+//         const { data } = await axios.post(`http://localhost:3003/enviarEmail`, conteudo)
+//         return alert(data.message)
+
+//     } catch (error) {
+//         console.log(error)
+
+//     }
+
+
+// }
