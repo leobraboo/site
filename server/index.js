@@ -6,8 +6,8 @@ const cors = require("cors")
 const router = express.Router()
 
 
-const user = "leo-llopes@hotmail.com"
-const pass = "leobrabo123"
+// const user = "leo-llopes@hotmail.com"
+const pass = ""
  
 router.post("/enviarEmail", async( req , res)=>{
     console.log(req.body)
