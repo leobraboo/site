@@ -85,7 +85,7 @@ ScrollReveal({
 	reseat : true,
 	distance: '60px',
 	duration: 2000,
-	delay:500
+	delay:400
 });
 
-ScrollReveal().reveal('.container' ,{delay:500 , origin:'left'} )
+ScrollReveal().reveal('.container' ,{delay:400 , origin:'left'} )
