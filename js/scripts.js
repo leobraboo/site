@@ -79,3 +79,13 @@ document.getElementById("submitButton").addEventListener("click", async (e)=>{
 
 
 // }
+window.sr = ScrollReveal ({reset: true})
+
+ScrollReveal({
+	reseat : true,
+	distance: '60px',
+	duration: 2000,
+	delay:500
+});
+
+ScrollReveal().reveal('.container' ,{delay:500 , origin:'left'} )
