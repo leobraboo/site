@@ -88,4 +88,10 @@ ScrollReveal({
 	delay:400
 });
 
-ScrollReveal().reveal('.container' ,{delay:400 , origin:'left'} )
+ScrollReveal().reveal('.teste' ,{delay:400 , origin:'left'} )
+ScrollReveal().reveal('.' ,{delay:100 , origin:'bottom'} )
+
+
+
+
+
